@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KH Production | 2026</title>
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts - Inter (Apple-style) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TIL MENYUSI (to'liq ishlaydi) -->
+    <div class="lang-bar">
+        <div class="lang-container">
+            <button class="lang-btn active" data-lang="uz">UZ</button>
+            <button class="lang-btn" data-lang="ru">RU</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+    </div>
+
+    <!-- NAVIGATSIYA -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <!-- Logo KH Production -->
+                <span class="logo-text">KH<span>Production</span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Bosh sahifa</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Xizmatlar</a></li>
+                <li><a href="#about" class="nav-link">Men haqimda</a></li>
+                <li><a href="#contact" class="nav-link">Bog‘lanish</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION (asosiy) -->
+    <section id="home" class="hero">
+        <!-- SUZUVCHI STIKERLAR (videografiyaga oid) -->
+        <div class="floating-stickers">
+            <div class="sticker"><i class="fas fa-play"></i></div>
+            <div class="sticker"><i class="fas fa-film"></i></div>
+            <div class="sticker"><i class="fas fa-video"></i></div>
+            <div class="sticker"><i class="fas fa-clapperboard"></i></div>
+            <div class="sticker"><i class="fas fa-camera"></i></div>
+            <div class="sticker"><i class="fas fa-sliders-h"></i></div>
+            <div class="sticker"><i class="fas fa-cut"></i></div>
+            <div class="sticker"><i class="fas fa-magic"></i></div>
+        </div>
+
+        <div class="hero-container">
+            <!-- KH Pro matni - hoverda chapdan o'ngga siljiydi -->
+            <h1 class="slide-text">
+                <span class="slide-text-inner" data-text="KH Pro">KH Pro</span>
+            </h1>
+            
+            <p class="hero-subtitle">Sizning hikoyangizni video orqali jonlantiramiz</p>
+            
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">Portfolioni ko‘rish</a>
+                <a href="#contact" class="btn btn-outline">Bog‘lanish</a>
+            </div>
+        </div>
+
+        <!-- Pastki scroll indikatori -->
+        <div class="scroll-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">Eng so‘nggi ishlarim</p>
+        </div>
+        
+        <div class="portfolio-grid">
+            <!-- 1. 3D Animation -->
+            <div class="portfolio-item">
+                <div class="portfolio-media">
+                    <video src="videos/3d-animation.mp4" poster="images/poster-3d.jpg" loop muted></video>
+                    <div class="play-overlay">
+                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h3>3D Animation</h3>
+                    <p>3D animatsion loyiha</p>
+                </div>
+            </div>
+            
+            <!-- 2. Beauty Video -->
+            <div class="portfolio-item">
+                <div class="portfolio-media">
+                    <video src="videos/beauty-video.mp4" poster="images/poster-beauty.jpg" loop muted></video>
+                    <div class="play-overlay">
+                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h3>Beauty Video</h3>
+                    <p>Go'zallik videografi</p>
+                </div>
+            </div>
+            
+            <!-- 3. Rells Video -->
+            <div class="portfolio-item">
+                <div class="portfolio-media">
+                    <video src="videos/reels-video.mp4" poster="images/poster-reels.jpg" loop muted></video>
+                    <div class="play-overlay">
+                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h3>Rells Video</h3>
+                    <p>Instagram Reels / TikTok</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- SERVICES SECTION (Xizmatlar) -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Xizmatlar</h2>
+                <p class="section-subtitle">Professional videografiya va montaj</p>
+            </div>
+            
+            <div class="services-grid">
+                
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Video Montaj</h3>
+                    <p>Rang korreksiyasi, maxsus effektlar, motion animation</p>
+                    <div class="service-price">$30</div>
+                    <button class="service-btn">Buyurtma berish</button>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Videografiya</h3>
+                    <p>4K sifat, professional kamerada har bir video narxi $50</p>
+                    <div class="service-price">$50</div>
+                    <button class="service-btn">Buyurtma berish</button>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <h3>Fotosessiya</h3>
+                    <p>Professional suratga olish, 20 + kadrlar</p>
+                    <div class="service-price">$100</div>
+                    <button class="service-btn">Buyurtma berish</button>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>To‘liq paket</h3>
+                    <p>Videografiya + montaj + Tuliq Project + 5 videos</p>
+                    <div class="service-price">$500</div>
+                    <button class="service-btn">Buyurtma berish</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="KH Production">
+                </div>
+                <div class="about-text">
+                    <h2>Men haqimda</h2>
+                    <p>Assalomu alaykum! Men <strong>KH Production</strong> asoschisi, professional videograf va montaj ustasiman. 5+ yillik tajriba, 100+ mijoz, 300+ video.</p>
+                    <p>Maqsadim – sizning eng yaxshi daqiqalaringizni abadiylashtirish va ularni video orqali jonlantirish.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Yillik tajriba</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100+</h3>
+                            <p>Mijozlar</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>300+</h3>
+                            <p>Videolar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Bog‘lanish</h2>
+                <p class="section-subtitle">Loyihangizni muhokama qilamiz</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefon</h3>
+                            <p>+998 91 459 49 59</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>jakhonyootube@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Manzil</h3>
+                            <p>Samarkand, O‘zbekiston</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media -->
+                    <div class="social-media">
+                        <a href="https://t.me/khamrayev_05" target="_blank" class="social-link">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://instagram.com/khamrayev_jax" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="Ismingiz" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="Telefon">
+                        <textarea placeholder="Xabaringiz" rows="5" required></textarea>
+                        <button type="submit" class="btn-submit">Yuborish</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="contact-item">
+    <i class="fas fa-phone"></i>
+    <div>
+        <h3>Telefon</h3>
+        <p><a href="tel:+998901234567" style="color: white; text-decoration: none;">+998 90 123 45 67</a></p>
+    </div>
+</div>
+<div class="contact-item">
+    <i class="fas fa-envelope"></i>
+    <div>
+        <h3>Email</h3>
+        <p><a href="mailto:info@khproduction.uz" style="color: white; text-decoration: none;">info@khproduction.uz</a></p>
+    </div>
+</div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 KH Production. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
